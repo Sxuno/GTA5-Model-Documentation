@@ -1,6 +1,6 @@
 # GTA5-Model-Documentation
 
-#Basics
+# Basics
 
    Programs
 
@@ -26,7 +26,7 @@
 
 
 
-#Data file types
+# Data file types
 
    Rpf
 
@@ -64,15 +64,23 @@
 
       System definition file
 
-#Model
+# Model
+
+   Basics
+
+      Normal direction
+
+      Vertexcount
+
+      Material
+
+      Meshmodifier
 
    Create
 
-   Import
-
    Export
  
-#Collision
+# Collision
 
    Collision types
 
@@ -156,27 +164,11 @@
          - Vehicle bvh
          - Vehicle not bvh
     
-#Material
+# Material
 
    Setup
  
-#Textures
-
-   Basics
-
-      - size
-
-         64x64, 128x128, 256x256, 512x512, 1024x1024
-
-      - file formats
-
-         dds, png
-
-   Embeded Textures
-
-   External Textures
- 
-#Shader
+# Shader
 
    Clouds 
  
@@ -275,7 +267,23 @@
  
       Parameter set:
 
-#Integration
+# Textures
+
+   Basics
+
+      - size
+
+         64x64, 128x128, 256x256, 512x512, 1024x1024
+
+      - file formats
+
+         dds, png
+
+   Embeded Textures
+
+   External Textures
+
+# Integration
 
    Replacement
 
