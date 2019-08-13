@@ -129,7 +129,7 @@
 
       Flags 2
 
-      Defines group of collision to interact With
+      Defines group of collision to interact with
 
          - Animal
          - Animal ragdoll
@@ -193,6 +193,34 @@
    Glass
  
       Parameter set:
+
+         glass
+
+         glass_breakable
+
+         glass_breakable_screendooralpha
+
+         glass_displacement
+
+         glass_emissive
+
+         glass_emissive_alpha
+
+         glass_emissivenight
+
+         glass_emissvenight_alpha
+
+         glass_env
+
+         glass_normal_spec_reflect
+
+         glass_pv
+
+         glass_pv_env
+
+         glass_reflect
+
+         glass_spec
    
    Parallax
  
@@ -225,10 +253,94 @@
    Decal
  
       Parameter set:
+
+         decal
+
+         decal_amb_only
+
+         decal_diff_only_um
+
+         decal_dirt
+
+         decal_emissive_only
+
+         decal_emissivenight_only
+
+         decal_glue
+
+         decal_normal_only
+
+         decal_shadow_only
+
+         decal_spec_only
+
+         decal_tnt
+
+         mirror_decal
+
+         normal_decal
+
+         normal_decal_pxm
+
+         normal_decal_pxm_tnt
+
+         normal_reflect_decal
+
+         normal_spec_decal
+
+         normal_spec_decal_detail
+
+         normal_spec_decal_nopuddle
+
+         normal_spec_decal_pxm
+
+         normal_spec_decal_tnt
+
+         normal_spec_detail_dpm_vertdecal_tnt
+
+         normal_spec_reflect_decal
+
+         reflect_decal
+
+         spec_decal
+
+         spec_reflect_decal
    
    Emissive
  
       Parameter set:
+
+         emissive
+
+         emissive_additive_alpha
+
+         emissive_additive_uv_alpha
+
+         emissive_alpha
+
+         emissive_alpha_tnt
+
+         emissive_clip
+
+         emissive_speclum
+
+         emissive_tnt
+
+         emissivenight
+
+         emissivenight_alpha
+
+         emissivenight_geomnightonly
+
+         emissivestrong
+
+         emissivestrong_alpha
+
+         normal_spec_emissive
+
+         normal_spec_reflect_emissivenight
+
+         normal_spec_reflect_emissivenight_alpha
    
    Mirror
  
@@ -238,14 +350,23 @@
  
       Parameter set:
 
-         coutout
+         cutout
 
-         coutout_fence
+         cutout_fence
 
+         cutout_fence_normal
+
+         cutout_hard
    
    Normal Bump
  
       Parameter set:
+
+         gta_normal
+
+         normal
+
+         normal_alpha
    
    Reflect
  
@@ -256,12 +377,66 @@
       Parameter set:
 
          default_spec
+
+         gta_spec
+
+         spec
+
+         spec_alpha
+
+         spec_const
+
+         spec_screendooralpha
+
+         spec_tnt
+
+         spec_twiddle_tnt
    
    Default
  
       Parameter set:
 
+         custom_default
+
          default
+
+            Diffuse Texture
+
+            Hard Alpha
+
+            Use tessellation
+
+               Add Parameter:
+
+                  GlobalAnimUV0
+                  GlobalAnimUV1
+                  WetnessMultiplier
+                  matMaterialColorScale
+
+         default_detail
+
+         default_noedge
+
+         default_tnt
+
+         default_um
+
+            Diffuse Texture
+
+            Hard Alpha
+
+            Use tesselation
+
+            Global umParams: ScaleH/ScaleV/FreqH/FreqV
+
+               Add Parameter:
+
+                  matMaterialColorScale
+                  umGlobalOverrideParams0
+
+         gta_default
+
+
    
    Other
  
@@ -271,13 +446,23 @@
 
    Basics
 
-      - size
+      Size
 
-         4x4, 64x64, 128x128, 256x256, 512x512, 1024x1024 adittional any combination of these sizes
+         4x4, 64x64, 128x128, 256x256, 512x512, 1024x1024 additional any combination of these sizes
 
-      - file formats
+      File formats
 
          dds, png
+
+      Pixel formats
+
+         DTX5
+
+         DTX3
+
+         DTX1
+
+         A8R8G8B8
 
    Embeded Textures
 
