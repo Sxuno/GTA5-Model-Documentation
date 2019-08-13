@@ -1,8 +1,8 @@
 # GTA5-Model-Documentation
 
-# Basics
+## Basics
 
-   Programs
+   **Programs**
 
       GTA 5
 
@@ -14,7 +14,7 @@
 
       Autodesk 3ds Max
 
-         Addonscript
+         *Addonscript*
    
             GIMS Evo
 
@@ -26,7 +26,7 @@
 
 
 
-# Data file types
+## Data file types
 
    Rpf
 
@@ -64,7 +64,7 @@
 
       System definition file
 
-# Model
+## Model
 
    Basics
 
@@ -80,7 +80,7 @@
 
    Export
  
-# Collision
+## Collision
 
    Collision types
 
@@ -164,11 +164,11 @@
          - Vehicle bvh
          - Vehicle not bvh
     
-# Material
+## Material
 
    Setup
  
-# Shader
+## Shader
 
    Clouds 
  
@@ -406,7 +406,7 @@
 
             Use tessellation
 
-               Add Parameter:
+               *Add Parameter:*
 
                   GlobalAnimUV0
                   GlobalAnimUV1
@@ -429,7 +429,7 @@
 
             Global umParams: ScaleH/ScaleV/FreqH/FreqV
 
-               Add Parameter:
+               *Add Parameter:*
 
                   matMaterialColorScale
                   umGlobalOverrideParams0
@@ -442,7 +442,7 @@
  
       Parameter set:
 
-# Textures
+## Textures
 
    Basics
 
@@ -468,7 +468,7 @@
 
    External Textures
 
-# Integration
+## Integration
 
    Replacement
 
