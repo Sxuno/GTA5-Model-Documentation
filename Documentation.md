@@ -38,7 +38,7 @@
 
       Assettypes
 
-         Drawebal
+         Drawable
 
          Milo
 
@@ -273,7 +273,7 @@
 
       - size
 
-         64x64, 128x128, 256x256, 512x512, 1024x1024
+         4x4, 64x64, 128x128, 256x256, 512x512, 1024x1024 adittional any combination of these sizes
 
       - file formats
 
@@ -291,6 +291,6 @@
 
       Definition files
 
-      file structure
+      File structure
 
       Encryption
