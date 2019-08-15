@@ -14,14 +14,12 @@ GTA 5
 
 Autodesk 3ds Max
 
-*Addonscript*
-   
+*Addonscript*   
 [GIMS Evo](https://de.gta5-mods.com/tools/gims-evo-with-gta-v-support/)
 
 [Blender](https://www.blender.org/)
 
 *Pythonscript*
-
 [Openformat-to-obj](https://github.com/hedgehog90/openformat-to-obj/)
 
 [Krita](https://krita.org/en/)
@@ -30,17 +28,15 @@ Autodesk 3ds Max
 
 # Data file types
 
-**Rpf**
+## Rpf
 
 > Archivefile, wich can contains different datafiles. Existing RPF can be deactivated throu content.xml in an dlc.
 
-**Ytype**
+## Ytype
 
-Asset definition file
+Asset definition file with case sensitive xml syntax which providing additional data for the system like draw boundings, physics directorie and more.
 
-Definition file with xml case sensitive syntax which providing additional data for the system like draw boundings, physics directorie and more.
-
-*Assettypes*
+***Assettypes***
 >
 >  Drawable
 >
@@ -54,23 +50,23 @@ Definition file with xml case sensitive syntax which providing additional data f
 >
 >      Definition of objects which are used in Milo.
 
-**Ydr**
+## Ydr
 
    Model file
 
-**Ybn**
+## Ybn
 
    Static collision file is an additional model to an existing one. It contains mostly simple box collisions which matches the geometry of its parent model.
 
-**Ytd**
+## Ytd
 
    Texturedictionary file
 
-**Ymap**
+## Ymap
 
    Map position definition file
 
-**Xml**
+## Xml
 
    System definition file contains data in xml which are directly handled by the system. These files are case sensetive in its structure.
 
@@ -96,11 +92,11 @@ Definition file with xml case sensitive syntax which providing additional data f
 
 ### Embeded Collision
 
-> On map load it will be loaded last, blocks flags only. Maximum allowed vertecies +32k.
+On map load it will be loaded last, blocks flags only. Maximum allowed vertecies +32k.
 
 ### Static Collision
 
-> On map loading it will be loaded first, blocks rain and snow automaticly.
+On map loading it will be loaded first, blocks rain and snow automaticly.
 
 ## Collision Flaggs
 
@@ -149,20 +145,18 @@ Vehicle not bvh            | Vehicle not bvh
 # Shader
 
 ## Clouds
- 
-*Parameter set:*
 
-   clouds_altitude
+**clouds_altitude**
 
-   clouds_anim
+**clouds_anim**
 
-   clouds_animsoft
+**clouds_animsoft**
 
-   clouds_fast
+**clouds_fast**
 
-   clouds_fog
+**clouds_fog**
 
-   clouds_soft
+**clouds_soft**
 
 ## Vehicle
     
@@ -170,35 +164,33 @@ Vehicle not bvh            | Vehicle not bvh
    
 ## Glass
  
-*Parameter set:*
+**glass**
 
-   glass
+**glass_breakable**
 
-   glass_breakable
+**glass_breakable_screendooralpha**
 
-   glass_breakable_screendooralpha
+**glass_displacement**
 
-   glass_displacement
+**glass_emissive**
 
-   glass_emissive
+**glass_emissive_alpha**
 
-   glass_emissive_alpha
+**glass_emissivenight**
 
-   glass_emissivenight
+**glass_emissvenight_alpha**
 
-   glass_emissvenight_alpha
+**glass_env**
 
-   glass_env
+**glass_normal_spec_reflect**
 
-   glass_normal_spec_reflect
+**glass_pv**
 
-   glass_pv
+**glass_pv_env**
 
-   glass_pv_env
+**glass_reflect**
 
-   glass_reflect
-
-   glass_spec
+**glass_spec**
    
 ## Parallax
  
@@ -230,184 +222,172 @@ Vehicle not bvh            | Vehicle not bvh
    
 ## Decal
  
-*Parameter set:*
+**decal**
 
-   decal
+**decal_amb_only**
 
-   decal_amb_only
+**decal_diff_only_um**
 
-   decal_diff_only_um
+**decal_dirt**
 
-   decal_dirt
+**decal_emissive_only**
 
-   decal_emissive_only
+**decal_emissivenight_only**
 
-   decal_emissivenight_only
+**decal_glue**
 
-   decal_glue
+**decal_normal_only**
 
-   decal_normal_only
+**decal_shadow_only**
 
-   decal_shadow_only
+**decal_spec_only**
 
-   decal_spec_only
+**decal_tnt**
 
-   decal_tnt
+**mirror_decal**
 
-   mirror_decal
+**normal_decal**
 
-   normal_decal
+**normal_decal_pxm**
 
-   normal_decal_pxm
+**normal_decal_pxm_tnt**
 
-   normal_decal_pxm_tnt
+**normal_reflect_decal**
 
-   normal_reflect_decal
+**normal_spec_decal**
 
-   normal_spec_decal
+**normal_spec_decal_detail**
 
-   normal_spec_decal_detail
+**normal_spec_decal_nopuddle**
 
-   normal_spec_decal_nopuddle
+**normal_spec_decal_pxm**
 
-   normal_spec_decal_pxm
+**normal_spec_decal_tnt**
 
-   normal_spec_decal_tnt
+**normal_spec_detail_dpm_vertdecal_tnt**
 
-   normal_spec_detail_dpm_vertdecal_tnt
+**normal_spec_reflect_decal**
 
-   normal_spec_reflect_decal
+**reflect_decal**
 
-   reflect_decal
+**spec_decal**
 
-   spec_decal
-
-   spec_reflect_decal
+**spec_reflect_decal**
    
 ## Emissive
- 
-*Parameter set:*
 
-   emissive
+**emissive**
 
-   emissive_additive_alpha
+**emissive_additive_alpha**
 
-   emissive_additive_uv_alpha
+**emissive_additive_uv_alpha**
 
-   emissive_alpha
+**emissive_alpha**
 
-   emissive_alpha_tnt
+**emissive_alpha_tnt**
 
-   emissive_clip
+**emissive_clip**
 
-   emissive_speclum
+**emissive_speclum**
 
-   emissive_tnt
+**emissive_tnt**
 
-   emissivenight
+**emissivenight**
 
-   emissivenight_alpha
+**emissivenight_alpha**
 
-   emissivenight_geomnightonly
+**emissivenight_geomnightonly**
 
-   emissivestrong
+**emissivestrong**
 
-   emissivestrong_alpha
+**emissivestrong_alpha**
 
-   normal_spec_emissive
+**normal_spec_emissive**
 
-   normal_spec_reflect_emissivenight
+**normal_spec_reflect_emissivenight**
 
-   normal_spec_reflect_emissivenight_alpha
+**normal_spec_reflect_emissivenight_alpha**
    
 ## Mirror
  
 *Parameter set:*
    
 ## Cutout
- 
-*Parameter set:*
 
-   cutout
+**cutout**
 
-   cutout_fence
+**cutout_fence**
 
-   cutout_fence_normal
+**cutout_fence_normal**
 
-   cutout_hard
+**cutout_hard**
    
 ## Normal Bump
- 
-*Parameter set:*
 
-   gta_normal
+**gta_normal**
 
-   normal
+**normal**
 
-   normal_alpha
+**normal_alpha**
    
 ## Reflect
  
  *Parameter set:*
    
 ## Specular
- 
-*Parameter set:*
 
-   default_spec
+**default_spec**
 
-   gta_spec
+**gta_spec**
 
-   spec
+**spec**
 
-   spec_alpha
+**spec_alpha**
 
-   spec_const
+**spec_const**
 
-   spec_screendooralpha
+**spec_screendooralpha**
 
-   spec_tnt
+**spec_tnt**
 
-   spec_twiddle_tnt
+**spec_twiddle_tnt**
  
 ## Default
- 
-*Parameter set:*
 
-   custom_default
+**custom_default**
 
-   default
-   
-      Diffuse Texture
-      Hard Alpha
-      Use tessellation
-      
-   *Add Parameter:*
-   
-      GlobalAnimUV0
-      GlobalAnimUV1
-      WetnessMultiplier
-      matMaterialColorScale
+**default**
+>
+> Diffuse Texture
+> Hard Alpha
+> Use tessellation
+>  
+>***Additional Parameter:***
+>   
+> GlobalAnimUV0
+> GlobalAnimUV1
+> WetnessMultiplier
+> matMaterialColorScale
 
-   default_detail
+**default_detail**
 
-   default_noedge
+**default_noedge**
 
-   default_tnt
+**default_tnt**
 
-   default_um
-   
-      Diffuse Texture
-      Hard Alpha
-      Use tesselation
-      Global umParams: ScaleH/ScaleV/FreqH/FreqV  
-      
-   *Add Parameter:*
-   
-      matMaterialColorScale
-      umGlobalOverrideParams0
+**default_um**
+>   
+> Diffuse Texture
+> Hard Alpha
+> Use tesselation
+> Global umParams: ScaleH/ScaleV/FreqH/FreqV  
+>    
+>***Additional Parameter:***
+>   
+> matMaterialColorScale
+> umGlobalOverrideParams0
 
-   gta_default
+**gta_default**
    
 ## Other
  
