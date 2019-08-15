@@ -14,11 +14,15 @@
 
       Autodesk 3ds Max
 
-         *Addonscript*
+         _Addonscript_
    
             GIMS Evo
 
       Blender
+
+         _Pythonscript_
+
+            Openformat-to-obj
 
       Krita
 
@@ -30,7 +34,7 @@
 
    Rpf
 
-      Archivefile
+      Archivefile, wich can contains different datafiles. Existing RPF can be deactivated throu content.xml in an dlc.
 
    Ytype
 
@@ -40,9 +44,15 @@
 
          Drawable
 
+            Defintion of an object base on a ydr model.
+
          Milo
 
+            Definition of zones and models to load. It uses Entity definition to build an array which is be used to set items to zones.
+
          Entity
+
+            Definition of objects which are used in Milo.
 
    Ydr
 
@@ -50,7 +60,7 @@
 
    Ybn
 
-      Static collision file
+      Static collision file is an additional model to an existing one. It contains mostly simple box collisions which matches the geometry of its parrent model.
 
    Ytd
 
@@ -62,11 +72,11 @@
 
    Xml
 
-      System definition file
+      System definition file contains data in xml which are directly handled by the system. These files are case sensetive in its structure.
 
 ## Model
 
-   Basics
+   **Basics**
 
       Normal direction
 
@@ -76,17 +86,21 @@
 
       Meshmodifier
 
-   Create
+   **Create**
 
-   Export
+   **Export**
  
 ## Collision
 
-   Collision types
+   **Collision types**
 
-      - Embeded Collision
+      Embeded Collision
 
-      - Static Collision
+      On map load it will be loaded last, blocks flags only. Maximum allowed vertecies +32k.
+
+      Static Collision
+
+         On map loading it will be loaded first, blocks rain and snow automaticly.
 
    Collision Flaggs
 
@@ -167,6 +181,8 @@
 ## Material
 
    Setup
+
+   Note: Allways Export/Save ur Shaders throu GIMS to speed up ur workflow.
  
 ## Shader
 
@@ -429,14 +445,12 @@
 
             Global umParams: ScaleH/ScaleV/FreqH/FreqV
 
-               *Add Parameter:*
+               _Add Parameter:_
 
                   matMaterialColorScale
                   umGlobalOverrideParams0
 
          gta_default
-
-
    
    Other
  
@@ -444,7 +458,7 @@
 
 ## Textures
 
-   Basics
+   **Basics**
 
       Size
 
@@ -464,15 +478,15 @@
 
          A8R8G8B8
 
-   Embeded Textures
+   **Embeded Textures**
 
-   External Textures
+   **External Textures**
 
 ## Integration
 
-   Replacement
+   **Replacement**
 
-   DLC
+   **DLC**
 
       Definition files
 
