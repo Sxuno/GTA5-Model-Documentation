@@ -4,6 +4,8 @@
 
 ## Programs
 
+**System:**
+
 GTA 5
 
 [OpenV](https://openiv.com/)
@@ -12,15 +14,20 @@ GTA 5
 
 [Archive Fix](https://gtaforums.com/topic/871168-affix-fix-your-rpf-archives-and-work-without-openiv/)
 
+**Models:**
+
 Autodesk 3ds Max
 
-*Addonscript*   
+*Addonscript Autodesk*   
 [GIMS Evo](https://de.gta5-mods.com/tools/gims-evo-with-gta-v-support/)
 
 [Blender](https://www.blender.org/)
 
 *Pythonscript*
+
 [Openformat-to-obj](https://github.com/hedgehog90/openformat-to-obj/)
+
+**Textures:**
 
 [Krita](https://krita.org/en/)
 
@@ -30,7 +37,7 @@ Autodesk 3ds Max
 
 ## Rpf
 
-> Archivefile, wich can contains different datafiles. Existing RPF can be deactivated throu content.xml in an dlc.
+Archivefile, wich can contains different datafiles. Existing RPF can be deactivated throu content.xml in an dlc.
 
 ## Ytype
 
@@ -38,15 +45,15 @@ Asset definition file with case sensitive xml syntax which providing additional 
 
 ***Assettypes***
 >
->  Drawable
+>  **Drawable**
 >
 >      Defintion of an object base on a ydr model.
 >
->   Milo
+>   **Milo**
 >
 >      Definition of zones and models to load. It uses Entity definition to build an array which is be used to set items to zones.
 >
->   Entity
+>   **Entity**
 >
 >      Definition of objects which are used in Milo.
 
@@ -140,7 +147,7 @@ Vehicle not bvh            | Vehicle not bvh
 
 ## Setup
 
-:pushpin: Note: Allways Export/Save ur Shaders throu GIMS to speed up ur workflow.
+:pushpin: ***Note:*** Allways Export/Save ur Shaders throu GIMS to speed up ur workflow.
  
 # Shader
 
@@ -359,14 +366,19 @@ Vehicle not bvh            | Vehicle not bvh
 **default**
 >
 > Diffuse Texture
+>
 > Hard Alpha
+>
 > Use tessellation
 >  
 >***Additional Parameter:***
 >   
 > GlobalAnimUV0
+>
 > GlobalAnimUV1
+>
 > WetnessMultiplier
+>
 > matMaterialColorScale
 
 **default_detail**
@@ -378,13 +390,17 @@ Vehicle not bvh            | Vehicle not bvh
 **default_um**
 >   
 > Diffuse Texture
+>
 > Hard Alpha
+>
 > Use tesselation
+>
 > Global umParams: ScaleH/ScaleV/FreqH/FreqV  
 >    
 >***Additional Parameter:***
 >   
 > matMaterialColorScale
+>
 > umGlobalOverrideParams0
 
 **gta_default**
@@ -397,23 +413,23 @@ Vehicle not bvh            | Vehicle not bvh
 
 ## Basics
 
-   *Size*
+### Size
 
-      4x4, 64x64, 128x128, 256x256, 512x512, 1024x1024 additional any combination of these sizes
+4x4, 64x64, 128x128, 256x256, 512x512, 1024x1024 additional any combination of these sizes
 
-   *File formats*
+### File formats
 
-      dds, png
+dds, png
 
-   *Pixel formats*
+### Pixel formats
 
-      DTX5
+DTX5
 
-      DTX3
+DTX3
 
-      DTX1
+DTX1
 
-      A8R8G8B8
+A8R8G8B8
 
 ## Embeded Textures
 
