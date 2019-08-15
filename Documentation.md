@@ -6,27 +6,27 @@
 
       GTA 5
 
-      OpenV
+      [OpenV](https://openiv.com/)
 
-      CodeWalker
+      [CodeWalker](https://github.com/dexyfex/CodeWalker/)
 
-      Archive Fix
+      [Archive Fix](https://gtaforums.com/topic/871168-affix-fix-your-rpf-archives-and-work-without-openiv/)
 
       Autodesk 3ds Max
 
-         _Addonscript_
+         *Addonscript*
    
-            GIMS Evo
+            [GIMS Evo](https://de.gta5-mods.com/tools/gims-evo-with-gta-v-support/)
 
-      Blender
+      [Blender](https://www.blender.org/)
 
-         _Pythonscript_
+         *Pythonscript*
 
-            Openformat-to-obj
+            [Openformat-to-obj](https://github.com/hedgehog90/openformat-to-obj/)
 
-      Krita
+      [Krita](https://krita.org/en/)
 
-      Awsomebump
+      [Awesomebump](https://github.com/kmkolasinski/AwesomeBump/)
 
 
 
@@ -60,7 +60,7 @@
 
    Ybn
 
-      Static collision file is an additional model to an existing one. It contains mostly simple box collisions which matches the geometry of its parrent model.
+      Static collision file is an additional model to an existing one. It contains mostly simple box collisions which matches the geometry of its parent model.
 
    Ytd
 
@@ -96,7 +96,7 @@
 
       Embeded Collision
 
-      On map load it will be loaded last, blocks flags only. Maximum allowed vertecies +32k.
+         On map load it will be loaded last, blocks flags only. Maximum allowed vertecies +32k.
 
       Static Collision
 
@@ -104,85 +104,49 @@
 
    Collision Flaggs
 
-      Flags 1
+      Flags 1                    | Flags 2
+      ------------               | -------------
 
-      Defines group of collision
+      Defines group of collision | Defines group of collision to interact with
 
-         - Animal
-         - Animal ragdoll
-         - Explosion
-         - Foliage
-         - Forklift forks
-         - Glass
-         - Map animal
-         - Map cover
-         - Map deep surface
-         - Map dynamic
-         - Map river
-         - Map stairs
-         - Map vehicle
-         - Map weapon
-         - Object
-         - Object env cloth
-         - Ped
-         - Pickup
-         - Plant
-         - Projectile
-         - Ragdoll
-         - Smoke
-         - Test ai
-         - Test camera
-         - Test script
-         - Test vehicle wheel
-         - Test weapon
-         - Unknown
-         - Unsmashed
-         - Vehicle bok
-         - Vehicle bvh
-         - Vehicle not bvh
-
-      Flags 2
-
-      Defines group of collision to interact with
-
-         - Animal
-         - Animal ragdoll
-         - Explosion
-         - Foliage
-         - Forklift forks
-         - Glass
-         - Map animal
-         - Map cover
-         - Map deep surface
-         - Map dynamic
-         - Map river
-         - Map stairs
-         - Map vehicle
-         - Map weapon
-         - Object
-         - Object env cloth
-         - Ped
-         - Pickup
-         - Plant
-         - Projectile
-         - Ragdoll
-         - Smoke
-         - Test ai
-         - Test camera
-         - Test script
-         - Test vehicle wheel
-         - Test weapon
-         - Unknown
-         - Unsmashed
-         - Vehicle bok
-         - Vehicle bvh
-         - Vehicle not bvh
+      - Animal                   | - Animal
+      - Animal Ragdoll           | - Animal Ragdoll
+      - Explosion                | - Exlosion
+      - Foliage                  | - Foiage
+      - Forklift forks           | - Forklift forks
+      - Glass                    | - Glass
+      - Map animal               | - Map animal
+      - Map cover                | - Map cover
+      - Map deep surface         | - Map deep surface
+      - Map dynamic              | - Map dynamic
+      - Map river                | - Map river
+      - Map stairs               | - Map stairs
+      - Map vehicle              | - Map vehicle
+      - Map weapon               | - Map weapon
+      - Object                   | - Object
+      - Object env cloth         | - Object env cloth
+      - Ped                      | - Ped
+      - Pickup                   | - Pickup
+      - Plant                    | - Plant
+      - Projectile               | - Projectile
+      - Ragdoll                  | - Ragdoll
+      - Smoke                    | - Smoke
+      - Test ai                  | - Test ai
+      - Test camera              | - Test camera
+      - Test script              | - Test script
+      - Test vehicle wheel       | - Test vehicle wheel
+      - Test weapon              | - Test weapon
+      - Unknown                  | - Unknow
+      - Unsmashed                | - Unsmashed
+      - Vehicle box              | - Vehicle box
+      - Vehicle bvh              | - Vehicle bvh
+      - Vehicle not bvh          | - Vehicle not bvh
     
 ## Material
 
    Setup
 
-   Note: Allways Export/Save ur Shaders throu GIMS to speed up ur workflow.
+   :pushpin: Note: Allways Export/Save ur Shaders throu GIMS to speed up ur workflow.
  
 ## Shader
 
