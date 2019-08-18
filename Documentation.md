@@ -33,6 +33,10 @@ Autodesk 3ds Max
 
 [Awesomebump](https://github.com/kmkolasinski/AwesomeBump/)
 
+**Minimap:**
+
+[GFX Editor](https://github.com/jindrapetrik/jpexs-decompiler/releases)
+
 # Data file types
 
 ## Rpf
@@ -41,21 +45,23 @@ Archivefile, wich can contains different datafiles. Existing RPF can be deactiva
 
 ## Ytype
 
-Asset definition file with case sensitive xml syntax which providing additional data for the system like draw boundings, physics directorie and more.
+Asset definition file with case sensitive xml syntax which providing additional data for the system like draw boundings,
+physics directorie and more.
 
 ***Assettypes***
 >
 >  **Drawable**
 >
->      Defintion of an object base on a ydr model.
+>   Defintion of an object base on a ydr model.
 >
 >   **Milo**
 >
->      Definition of zones and models to load. It uses Entity definition to build an array which is be used to set items to zones.
+>   Definition of zones and models to load. It uses Entity definition to build an array, 
+>   which is be used to set items to zones.
 >
 >   **Entity**
 >
->      Definition of objects which are used in Milo.
+>   Definition of objects which are used in Milo.
 
 ## Ydr
 
@@ -63,7 +69,8 @@ Asset definition file with case sensitive xml syntax which providing additional 
 
 ## Ybn
 
-   Static collision file is an additional model to an existing one. It contains mostly simple box collisions which matches the geometry of its parent model.
+   Static collision file is an additional model to an existing one. It contains mostly 
+   simple box collisions which matches the geometry of its parent model.
 
 ## Ytd
 
@@ -75,7 +82,8 @@ Asset definition file with case sensitive xml syntax which providing additional 
 
 ## Xml
 
-   System definition file contains data in xml which are directly handled by the system. These files are case sensetive in its structure.
+   System definition file contains data in xml which are directly handled by the system. 
+   These files are case sensetive in its structure.
 
 # Model
 
@@ -96,6 +104,8 @@ Asset definition file with case sensitive xml syntax which providing additional 
 # Collision
 
 ## Collision types
+
+Collision FX are definend within the Material
 
 ### Embeded Collision
 
@@ -144,6 +154,11 @@ Vehicle bvh                | Vehicle bvh
 Vehicle not bvh            | Vehicle not bvh
 
 # Material
+
+A list of materials can be found in the game files *material.dat* which is be used by Gims Evo.
+Materials in Autodesk 3ds must be named like the material in material.dat u want to use, else
+the Gims Evo converts the material to default.
+If a material should have a specific specialFX u have to use the names *materialfx.dat* as material name affix.
 
 ## Setup
 
@@ -334,6 +349,31 @@ Vehicle not bvh            | Vehicle not bvh
 **gta_normal**
 
 **normal**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Bumpiness
+>
+> Specular Intensity
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Hard Alpha
+>
+> Use tessellation
+>
+>***Additional Parameter***
+>   
+> GlobalAnimUV0
+>
+> GlobalAnimUV1
+>
+> WetnessMultiplier
+>
+> matMaterialColorScale
 
 **normal_alpha**
    
@@ -364,7 +404,6 @@ Vehicle not bvh            | Vehicle not bvh
 **custom_default**
 
 **default**
->
 > Diffuse Texture
 >
 > Hard Alpha
@@ -434,6 +473,14 @@ A8R8G8B8
 ## Embeded Textures
 
 ## External Textures
+
+# Minimap
+
+## Export
+
+## Edit
+
+## Import
 
 # Integration
 
