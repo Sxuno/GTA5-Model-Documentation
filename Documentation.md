@@ -16,7 +16,7 @@ GTA 5
 
 **Models:**
 
-Autodesk 3ds Max
+[Autodesk 3ds Max](https://www.autodesk.de/products/3ds-max/overview)
 
 *Addonscript Autodesk*   
 [GIMS Evo](https://de.gta5-mods.com/tools/gims-evo-with-gta-v-support/)
@@ -24,7 +24,6 @@ Autodesk 3ds Max
 [Blender](https://www.blender.org/)
 
 *Pythonscript*
-
 [Openformat-to-obj](https://github.com/hedgehog90/openformat-to-obj/)
 
 **Textures:**
@@ -99,6 +98,8 @@ physics directorie and more.
 
 ## Create
 
+## Import
+
 ## Export
 
 # Collision
@@ -166,6 +167,13 @@ If a material should have a specific specialFX u have to use the names *material
  
 # Shader
 
+## Parameter Description
+
+**Diffuse Texture**
+.
+.
+.
+
 ## Clouds
 
 **clouds_altitude**
@@ -187,32 +195,354 @@ If a material should have a specific specialFX u have to use the names *material
 ## Glass
  
 **glass**
+> Bump Texture
+> 
+> Diffuse Texture
+>
+> Enviorment Texture(Cube)
+>
+> Bumpiness
+>
+> Reflectivity
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
 
 **glass_breakable**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Specular Texture
+>
+> BrokenDiffuseColor
+>
+> BrokenSpecularColor
+>
+> Bumpiness
+>
+> DecalTint
+>
+> specular map intensity mask color
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensitiy
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> CrackDecalBumpAlphaThreshold
+>
+> CrackDecalBumpAmout
+>
+> CrackDecalBumpTileScale
+>
+> CrackEdgeBumpAmount
+>
+> CrackEdgeBumpTileScale
 
 **glass_breakable_screendooralpha**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Specular Texture
+>
+> BrokenDiffuseColor
+> 
+> BrokenSpecularColor
+>
+> Bumpiness
+>
+> DecalTint
+>
+> specular map intensity mask color
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> CrackDecalBumpAlphaThreshold
+>
+> CrackDecalBumpAmout
+>
+> CrackDecalBumpTileScale
+>
+> CrackEdgeBumpAmount
+>
+> CrackEdgeBumpTileScale
 
 **glass_displacement**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Enviorment Texture (Cube)
+>
+> Specular Texture
+>
+> Bumpiness
+>
+> Reflectivity
+>
+> specular map intensity mask color
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
+>
+> Displacement: scaleU,scaleV,camDist
 
 **glass_emissive**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Enviorment Texture (Cube)
+>
+> Bumpiness
+>
+> Emissive HDR Multiplier
+>
+> Reflectivity
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+> 
+> Use tessellation
+>
+> ***Additional Parameters***
+>
+> GlobalAnimUV0
+>
+> GlobalAnimUV1
 
 **glass_emissive_alpha**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Enviorment Texture (Cube)
+>
+> Bumpiness
+>
+> Emissive HDR Multiplier
+>
+> Reflectivity
+>
+> Specular Falloff
+> 
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+> 
+> GlobalAnimUV0
+>
+> GlobalAnimUV1
 
 **glass_emissivenight**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Enviorment Texture (Cube)
+>
+> Bumpiness
+>
+> Emissive HDR Multiplier
+>
+> Reflectivity
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
 
 **glass_emissvenight_alpha**
+> Bump Texture
+> 
+> Diffuse Texture
+>
+> Enviorment Texture (Cube)
+>
+> Bumpiness
+>
+> Emissive HDR Multiplier
+>
+> Reflectivity
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
 
 **glass_env**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Specular Texture
+>
+> Bumpiness
+>
+> specular map intensity mask color
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> GlobalAnimUV0
+>
+> GlobalAnimUV1
 
 **glass_normal_spec_reflect**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Enviorment Texture (Cube)
+>
+> Specular Texture
+>
+> Bumpiness
+>
+> Reflectivity
+>
+> specular map intensity mask color
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
 
 **glass_pv**
+> Diffuse Texture
+> 
+> BrokenDiffuseColor
+>
+> BrokenSpecularColor
+>
+> Crack Decal Bump Alpha Threshold
+>
+> DecalTint
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> CrackDecalBumpAmount
+>
+> CrackDecalBumpTileScale
+>
+> CrackEdgeBumpAmount
+>
+> CrackEdgeBumpTileScale
 
 **glass_pv_env**
+> Diffuse Texture
+>
+> BrokenDiffuseColor
+>
+> BrokenSpecularColor
+>
+> Crack Decal Bump Alpha Threshold
+>
+> DecalTint
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
+> 
+> ***Additional Parameter***
+>
+> CrackDecalBumpAmount
+>
+> CrackDecalBumpTileScale
+>
+> CrackEdgeBumpAmount
+>
+> CrackEdgeBumpTileScale
 
 **glass_reflect**
+> Diffuse Texture
+>
+> Enviorment Texture (Cube)
+>
+> Reflectivity
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
 
 **glass_spec**
+> Diffuse Texture
+>
+> Specular Texture
+>
+> specular map intensity mask color
+>
+> Specular Falloff
+>
+> Specular Fresnel
+> 
+> Specular Intensity
+>
+> Use tessellation
    
 ## Parallax
  
@@ -245,90 +575,795 @@ If a material should have a specific specialFX u have to use the names *material
 ## Decal
  
 **decal**
+> Diffuse Texture
+>
+> Specular Falloff
+> 
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+> 
+> WetnessMultiplier
 
 **decal_amb_only**
+> Diffuse Texture
+>
+> ambient map mask color
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> matMaterialColorScale
 
 **decal_diff_only_um**
+> Diffuse Texture
+>
+> Use tessellation
+> 
+> Global umParams:ScaleH/ScaleV/FreqH/FreqV
+>
+> ***Additional Parameter***
+> 
+> WetnessMultiplier
+>
+> matMaterialColorScale
+>
+> umGlobalOverrideParams0
 
 **decal_dirt**
+> Diffuse Texture
+>
+> dirt map mask color
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
 
 **decal_emissive_only**
+> Diffuse Texture
+>
+> Emissive HDR Multiplier
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> matMaterialColorScale
 
 **decal_emissivenight_only**
+> Diffuse Texture
+>
+> Emissive HDR Multiplier
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> matMaterialColorScale
 
 **decal_glue**
+> Diffuse Texture
+>
+> Specular Falloff
+> 
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
 
 **decal_normal_only**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Bumpiness
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
 
 **decal_shadow_only**
+> Diffuse Texture
+>
+> Use tessellation
+> 
+> ***Additional Parameter***
+>
+> matMaterialColorScale
 
 **decal_spec_only**
+> Diffuse Texture
+>
+> Specular Texture
+>
+> specular map intensity mask color
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
 
 **decal_tnt**
+> Diffuse Texture
+>
+> Tint Palette
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Tint Palette Selector
+>
+> Use tessellation
+> 
+> ***Additional Paramerter***
+>
+> WetnessMultiplier
 
 **mirror_decal**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Bumpiness
+>
+> Reflectivity
+>
+> Specular Fresnel
+>
+> Use tessellation
+>
+> Distorion Amount
+>
+> ***Additional Parameter***
+>
+> gMirrorBounds
 
 **normal_decal**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Bumpiness
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> GlobalAnmiUV0
+>
+> GlobalAnimUV1
+>
+> WetnessMultiplier
 
 **normal_decal_pxm**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Height Texture
+>
+> Bumpiness
+>
+> Height Bias
+>
+> Heigth Scale
+>
+> Parallax Self Shadow
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> GlobalAnimUV0
+>
+> GlobalAnimUV1
+>
+> WetnessMultiplier
 
 **normal_decal_pxm_tnt**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Height Texture
+>
+> Tint Palette
+>
+> Bumpintess
+>
+> Height Bias
+>
+> Height Scale
+>
+> Parallax Self Shadow
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Tint Palette Selector
+>
+> Use tessellation
+
+**normal_decal_tnt**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Tint Palette
+>
+> Bumpiness
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Tint Palette Selector
+>
+> Use tessellation
 
 **normal_reflect_decal**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Enviorment Texture (Cube)
+>
+> Bumpiness
+>
+> Reflectivity
+>
+> Use tessellation
 
 **normal_spec_decal**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Specular Texture
+>
+> Bumpiness
+>
+> specular map intensity mask color
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> GlobalAnimUV0
+>
+> GlobalAnimUV1
+>
+> WetnessMultiplier
 
 **normal_spec_decal_detail**
+> Bump Texture
+>
+> Detail Map
+>
+> Diffuse Texture
+>
+> Specular Texture
+>
+> Bumpiness
+>
+> detail Inten Bump Scale
+>
+> specular map intensity mask color
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
 
 **normal_spec_decal_nopuddle**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Specular Texture
+>
+> Bumpiness
+>
+> specular map intensity mask color
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> WetnessMultiplier
 
 **normal_spec_decal_pxm**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Height Texture
+>
+> Specular Texture
+>
+> Bumpiness
+>
+> Height Bias
+>
+> Height Scale
+>
+> Parallax Self Shadow
+>
+> specular map intensity mask color
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> GlobalAnimUV0
+> 
+> GlobalAnimUV1
+>
+> WetnessMultiplier
 
 **normal_spec_decal_tnt**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Specular Texture
+>
+> Tint Palette
+>
+> Bumpiness
+>
+> specular map intensity mask color
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Tint Palette Selector
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> WetnessMultiplier
 
 **normal_spec_detail_dpm_vertdecal_tnt**
+> Bump Texture
+>
+> Detail Map
+>
+> Diffuse Texture
+>
+> Secondary Texture
+>
+> Height Texture
+>
+> Specular Texture
+>
+> Tint Palette
+>
+> Bumpiness
+>
+> detail Inten Bump Scale
+>
+> Hard Alpha
+>
+> Height Bias
+>
+> Height Scale
+>
+> specular map intensity mask color
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Tessellation Mul
+>
+> Tint Palette Selector
+>
+> UseTessellation
+>
+> ***Additional Parameter***
+>
+> WetnessMultiplier
 
 **normal_spec_reflect_decal**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Environment Texture (Cube)
+>
+> Specular Texture
+>
+> Bumpiness
+>
+> Reflectivity
+>
+> specular map intensity mask color
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
 
 **reflect_decal**
+> Diffuse Texture
+>
+> Environment Texture (Cube)
+>
+> Reflectivity
+>
+> Use tessellation
 
 **spec_decal**
+> Diffuse Texture
+>
+> Specular Texture
+>
+> specular map intensity mask color
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
 
 **spec_reflect_decal**
+> Diffuse Texture
+>
+> Environment Texture (Cube)
+>
+> Specular Texture
+>
+> Reflectivity
+>
+> specular map intensity mask color
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
    
 ## Emissive
 
 **emissive**
+> Diffuse Texture
+>
+> Emissive HDR Multiplier
+>
+> Hard Alpha
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> GlobalAnimUV0
+>
+> GlobalAnimUV1
+>
+> natNaterialColorScale
 
 **emissive_additive_alpha**
+> Diffuse Texture
+>
+> Emissive HDR Multiplier
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> matMaterialColorScale
 
 **emissive_additive_uv_alpha**
+> Diffuse Texture
+>
+> Emissive HDR Multiplier
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> GlobalAnimUV0
+>
+> GlobalAnimUV1
+>
+> matMaterialColorScale
 
 **emissive_alpha**
+> Diffuse Texture
+>
+> Emissive HDR Multiplier
+>
+> Hard Alpha
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> GlobalAnimUV0
+>
+> GlobalAnimUV1
+>
+> matMaterialColorScale
 
 **emissive_alpha_tnt**
+> Diffuse Texture
+>
+> Tint Palette
+>
+> Emissive HDR Multiplier
+>
+> Hard Alpha
+>
+> Tint Palette Selector
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> matMaterialColorScale
 
 **emissive_clip**
+> Diffuse Texture
+>
+> Emissive HDR Multiplier
+>
+> Hard Alpha
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> GlobalAnimUV0
+>
+> GlobalAnimUV1
+>
+> matMaterialColorScale
 
 **emissive_speclum**
+> Diffuse Texture
+>
+> Emissive HDR Multiplier
+>
+> Hard Alpha
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intensity
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> matMaterialColorScale
 
 **emissive_tnt**
+> Diffuse Texture
+>
+> Tint Palette
+>
+> Emissive HDR Multiplier
+>
+> Hard Alpha
+>
+> Tint Palette Selector
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> matMaterialColorScale
 
 **emissivenight**
+> Diffuse Texture
+>
+> Emissive HDR Multiplier
+>
+> Hard Alpha
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> matMaterialColorScale
 
 **emissivenight_alpha**
+> Diffuse Texture
+>
+> Emissive HDR Multiplier
+>
+> Hard Alpha
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> matMaterialColorScale
 
 **emissivenight_geomnightonly**
+> Diffuse Texture
+>
+> Emissive HDR Multiplier
+>
+> Hard Alpha
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> matMaterialColorScale
 
 **emissivestrong**
+> Diffuse Texture
+>
+> Emissive HDR Multiplier
+>
+> Hard Alpha
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> GlobalAnimUV0
+>
+> GlobalAnimUV1
+>
+> matMaterialColorScale
 
 **emissivestrong_alpha**
+> Diffuse Texture
+>
+> Emissive HDR Multiplier
+>
+> Hard Alpha
+>
+> Use tessellation
+>
+> ***Additional Parameter***
+>
+> GlobalAnimUV0
+>
+> GlobalAnimUV1
+>
+> matMaterialColorScale
 
 **normal_spec_emissive**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Specular Texture
+>
+> Bumpiness
+>
+> Emissive HDR Multiplier
+>
+> Hard Alpha
+>
+> specular map intensity mask color
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular Intenstity
+>
+> Use tessellation
 
 **normal_spec_reflect_emissivenight**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Specular Texture
+>
+> Bumpiness
+>
+> Emissive HDR Multiplier
+>
+> specular map intensity mask color
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular intenstity
+>
+> Use tessellation
 
 **normal_spec_reflect_emissivenight_alpha**
+> Bump Texture
+>
+> Diffuse Texture
+>
+> Specular Texture
+>
+> Bumpiness
+>
+> Emissive HDR Multiplier
+>
+> specular map intensity mask color
+>
+> Specular Falloff
+>
+> Specular Fresnel
+>
+> Specular intenstity
+>
+> Use tessellation
    
 ## Mirror
  
@@ -426,8 +1461,7 @@ If a material should have a specific specialFX u have to use the names *material
 
 **default_tnt**
 
-**default_um**
->   
+**default_um**  
 > Diffuse Texture
 >
 > Hard Alpha
