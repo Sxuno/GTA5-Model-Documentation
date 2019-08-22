@@ -3,6 +3,10 @@
 # Index
 [**Basics**](./Documentation.md#basics)
 - [Programs](./Documentation.md#programs)
+   - [System](./Documenation.md#system)
+   - [Models](./Documenation.md#models)
+   - [Textures](./Documentation.md#textures)
+   - [Minimap](./Documentation.md#minimap)
 
 [**Data file types**](./Documentation.md#data-file-types)
 - [RPF](./Documentation.md#rpf) 
@@ -21,36 +25,61 @@
 
 [**Collision**](./Documentation.md#collision)
 - [Collision types](./Documentation.md#collision-types)
-- [Collision Flaggs](./Documentation.md#collision-falggs)
+   - [Embeded Collision](./Documentation.md#embeded-collision)
+   - [Static Collision](./Documentation.md#static-collision)
+- [Collision Flaggs](./Documentation.md#collision-flaggs)
 
 [**Material**](./Documentation.md#material)
 - [Setup](./Documentation.md#setup)
+- [Material list](./Documentation.md#material-list)
+   - [Hard terrain](./Documentation.md#hard-terrain)
+   - [Loose terrain](./Documentation.md#loose-terrain)
+   - [Vegetation](./Documentation.md#vegetation)
+   - [Metals](./Documentation.md#metals)
+   - [Woods](./Documentation.md#woods)
+   - [Manmade](./Documentation.md#manmade)
+   - [Glass](./Documentation.md#glass)
+   - [Vehicles](./Documentation.md#vehicles)
+   - [Liquids](./Documentation.md#liquids)
+   - [Misc](./Documentation.md#misc)
+   - [Projtex](./Documentation.md#projtex)
+   - [VFX specific particles](./Documentation.md#vfx-specific-particles)
+   - [VFX specific explosions](./Documentation.md#vfx-specific-explosions)
+   - [Physics](./Documentation.md#physics)
+   - [Natrual motion](./Documentation.md#natrual-motion)
+   - [New Materials](./Documentation.md#new-materials)
 
 [**Shader**](./Documentation.md#shader)
-- [Clouds](./Documentation.md#clouds)
-- [Glass](./Documentation.md#glass)
-- [Parallax](./Documentation.md#parallax)
-- [Cloth](./Documentation.md#cloth)
-- [Ped](./Documentation.md#ped)
-- [Water](./Documentation.md#water)
-- [Terrain](./Documentation.md#terrain)
-- [Trees](./Documentation.md#trees)
-- [Weapon](./Documentation.md#weapon)
-- [Decal](./Documentation.md#decal)
-- [Mirror](./Documentation.md#mirror)
-- [Cutout](./Documentation.md#cutout)
-- [Normal Bump](./Documentation.md#normal-bump)
-- [Reflect](./Documentation.md#reflect)
-- [Specular](./Documentation.md#specular)
-- [Default](./Documentation.md#default)
-- [Other](./Documentation.md#other)
+- [Parameter Description](./Documentation.md#parameter-description)
+- [Parameter sets](./Dcomuentation.md#parameter-sets)
+   - [Clouds](./Documentation.md#clouds)
+   - [Vehicle](./Documentation.md#vehicle-1)
+   - [Glass](./Documentation.md#glass-1)
+   - [Parallax](./Documentation.md#parallax)
+   - [Cloth](./Documentation.md#cloth)
+   - [Ped](./Documentation.md#ped)
+   - [Water](./Documentation.md#water)
+   - [Terrain](./Documentation.md#terrain)
+   - [Trees](./Documentation.md#trees)
+   - [Weapon](./Documentation.md#weapon)
+   - [Decal](./Documentation.md#decal)
+   - [Mirror](./Documentation.md#mirror)
+   - [Cutout](./Documentation.md#cutout)
+   - [Normal Bump](./Documentation.md#normal-bump)
+   - [Reflect](./Documentation.md#reflect)
+   - [Specular](./Documentation.md#specular)
+   - [Default](./Documentation.md#default)
+   - [Other](./Documentation.md#other)
 
-[**Textures**](./Documentation.md#textures)
- - [Basics](./Documentation.md#basics-2)
- - [Embeded Textures](./Documentation.md#embeded-textures)
- - [External Textures](./Documentation.md#external-textures)
+[**Textures**](./Documentation.md#textures-1)
+- [Basics](./Documentation.md#basics-2)
+   - [Size](./Documentation.md#size)
+   - [File formats](./Documentation.md#file-formats)
+   - [Pixel formats](./Documentation.md#pixel-formats)
+- [Embeded Textures](./Documentation.md#embeded-textures)
+- [External Textures](./Documentation.md#external-textures)
 
-[**Minimap**](./Documentation.md#minimap)
+[**Minimap**](./Documentation.md#minimap-1)
 - [Export](./Documentation.md#export-1)
 - [Edit](./Documentation.md#edit)
 - [Import](./Documentation.md#import-1)
@@ -58,12 +87,15 @@
 [**Integration**](./Documentation.md#integration)
 - [Replacement](./Documentation.md#replacement)
 - [DLC](./Documentation.md#dlc)
+   - [Definition files](./Documentation.md#definition-files)
+   - [File structure](./Documentation.md#file-structure)
+   - [Encryption](./Documentation.md#encryption)
 
 # Basics
 
 ## Programs
 
-**System:**
+### System
 
 GTA 5
 
@@ -73,7 +105,7 @@ GTA 5
 
 [Archive Fix](https://gtaforums.com/topic/871168-affix-fix-your-rpf-archives-and-work-without-openiv/)
 
-**Models:**
+### Models
 
 [Autodesk 3ds Max](https://www.autodesk.de/products/3ds-max/overview)
 
@@ -85,13 +117,13 @@ GTA 5
 *Pythonscript* 
 [Openformat-to-obj](https://github.com/hedgehog90/openformat-to-obj/)
 
-**Textures:**
+### Textures
 
 [Krita](https://krita.org/en/)
 
 [Awesomebump](https://github.com/kmkolasinski/AwesomeBump/)
 
-**Minimap:**
+### Minimap
 
 [GFX Editor](https://github.com/jindrapetrik/jpexs-decompiler/releases)
 
@@ -108,7 +140,7 @@ physics directorie and more.
 
 ***Assettypes***
 >
->  **Drawable**
+>   **Drawable**
 >
 >   Defintion of an object base on a ydr model.
 >
@@ -159,7 +191,15 @@ physics directorie and more.
 
 ## Import
 
+*to GTA5*
+
+*to Autodesk 3ds*
+
 ## Export
+
+*from GTA5*
+
+*from Autodesk 3ds*
 
 # Collision
 
@@ -218,22 +258,283 @@ Vehicle not bvh            | Vehicle not bvh
 A list of materials can be found in the game files *material.dat* which is be used by Gims Evo.
 Materials in Autodesk 3ds must be named like the material in material.dat u want to use, else
 the Gims Evo converts the material to default.
-If a material should have a specific specialFX u have to use the names *materialfx.dat* as material name affix.
 
 ## Setup
 
 :pushpin: ***Note:*** Allways Export/Save ur Shaders throu GIMS to speed up ur workflow.
  
+## Material list
+
+### Hard Terrain
+   
+CONCRETE             
+CONCRETE_POTHOLE        
+CONCRETE_DUSTY          
+TARMAC                  
+TARMAC_PAINTED          
+TARMAC_POTHOLE          
+RUMBLE_STRIP            
+BREEZE_BLOCK            
+ROCK                 
+ROCK_MOSSY              
+STONE                
+COBBLESTONE             
+BRICK                
+MARBLE                  
+PAVING_SLAB             
+SANDSTONE_SOLID            
+SANDSTONE_BRITTLE 
+
+### Loose Terrain
+
+SAND_LOOSE
+SAND_COMPACT
+SAND_WET
+SAND_TRACK
+SAND_UNDERWATER
+SAND_DRY_DEEP
+SAND_WET_DEEP 
+
+ICE
+ICE_TARMAC
+SNOW_LOOSE
+SNOW_COMPACT
+SNOW_DEEP
+SNOW_TARMAC 
+
+GRAVEL_SMALL
+GRAVEL_LARGE
+GRAVEL_DEEP
+GRAVEL_TRAIN_TRACK
+DIRT_TRACK
+MUD_HARD
+MUD_POTHOLE 
+MUD_SOFT
+MUD_UNDERWATER
+MUD_DEEP 
+MARSH
+MARSH_DEEP
+SOIL
+CLAY_HARD
+CLAY_SOFT   
+
+### Vegetation
+
+GRASS_LONG  
+GRASS
+GRASS_SHORT
+HAY   
+BUSHES
+TWIGS
+LEAVES
+WOODCHIPS
+TREE_BARK
+
+### Metals
+
+METAL_SOLID_SMALL
+METAL_SOLID_MEDIUM   
+METAL_SOLID_LARGE
+METAL_HOLLOW_SMALL
+METAL_HOLLOW_MEDIUM  
+METAL_HOLLOW_LARGE
+METAL_CHAINLINK_SMALL
+METAL_CHAINLINK_LARGE
+METAL_CORRUGATED_IRON
+METAL_GRILLE
+METAL_RAILING
+METAL_DUCT
+METAL_GARAGE_DOOR
+METAL_MANHOLE
+
+### Woods
+
+WOOD_SOLID_SMALL
+WOOD_SOLID_MEDIUM
+WOOD_SOLID_LARGE
+WOOD_SOLID_POLISHED  
+WOOD_FLOOR_DUSTY
+WOOD_HOLLOW_SMALL
+WOOD_HOLLOW_MEDIUM
+WOOD_HOLLOW_LARGE
+WOOD_CHIPBOARD
+WOOD_OLD_CREAKY   
+WOOD_HIGH_DENSITY
+WOOD_LATTICE
+
+### Manmade
+
+CERAMIC
+ROOF_TILE
+ROOF_FELT
+FIBREGLASS 
+TARPAULIN
+PLASTIC
+PLASTIC_HOLLOW 
+PLASTIC_HIGH_DENSITY
+PLASTIC_CLEAR
+PLASTIC_HOLLOW_CLEAR
+PLASTIC_HIGH_DENSITY_CLEAR
+
+FIBREGLASS_HOLLOW
+RUBBER
+RUBBER_HOLLOW
+LINOLEUM 
+LAMINATE
+CARPET_SOLID
+CARPET_SOLID_DUSTY   
+CARPET_FLOORBOARD
+CLOTH 
+PLASTER_SOLID
+PLASTER_BRITTLE   
+CARDBOARD_SHEET
+CARDBOARD_BOX
+PAPER
+FOAM
+FEATHER_PILLOW
+POLYSTYRENE 
+LEATHER
+TVSCREEN
+SLATTED_BLINDS
+
+### Glass
+
+GLASS_SHOOT_THROUGH  
+GLASS_BULLETPROOF
+GLASS_OPAQUE
+
+PERSPEX  
+
+### Vehicles
+
+CAR_METAL
+CAR_PLASTIC
+CAR_SOFTTOP 
+CAR_SOFTTOP_CLEAR
+
+CAR_GLASS_WEAK
+CAR_GLASS_MEDIUM
+CAR_GLASS_STRONG
+CAR_GLASS_BULLETPROOF
+CAR_GLASS_OPAQUE
+
+### Liquids
+
+WATER
+BLOOD
+OIL
+PETROL
+
+### Misc
+
+FRESH_MEAT
+DRIED_MEAT
+
+### Projtex
+
+EMISSIVE_GLASS          
+EMISSIVE_PLASTIC
+
+### VFX specific particles
+
+VFX_METAL_ELECTRIFIED
+VFX_METAL_WATER_TOWER
+
+### VFX specific explosions
+
+VFX_METAL_STEAM   
+VFX_METAL_FLAME
+
+### Physics
+
+*USE FOR BOWLING LANES SO THE SCRIPT HAS TOTAL CONTROL OVER THE BOWLING BALL MOVEMENT*                                                                      
+PHYS_NO_FRICTION  
+
+*USED FOR BALL IN THE GOLF MINI-GAME SO THAT IT CAN BE TWEAKED WITHOUT AFFECTING OTHER OBJECTS IN THE WORLD*                                                                        
+PHYS_GOLF_BALL 
+
+*USED FOR BALL IN THE TENNIS MINI-GAME SO THAT IT CAN BE TWEAKED WITHOUT AFFECTING OTHER OBJECTS IN THE WORLD*                                                                         
+PHYS_TENNIS_BALL
+
+*USED FOR CASTERS ON TROLLEYS TO MAKE IT SLIDE AROUND THE FLOOR*                                                                                      
+PHYS_CASTER 
+
+*USED FOR CASTERS ON TROLLEYS TO MAKE IT SLIDE AROUND THE FLOOR - HIGHER FRICTION VERSION*                                                                                       
+PHYS_CASTER_RUSTY 
+
+*USED ON VEHICLES OVER AREA WHERE A DOOR OR WINDOW CAN FALL OFF - IT KEEPS THE CONVEX HULL REQUIREMENTS FOR THE COLLISION*                                                                
+PHYS_CAR_VOID           
+
+*SET ONLY IN CODE FOR THE MAIN NON RAGDOLL PED CAPSULE*                                                                                               
+PHYS_PED_CAPSULE        
+
+*MATERIALS THAT THE PHYSICS NEEDS CAUSE A REACTION TO*                                                                                 
+PHYS_ELECTRIC_FENCE        
+PHYS_ELECTRIC_METAL        
+PHYS_BARBED_WIRE        
+
+*MATERIALS FOR THE BILLIARDS MINI GAME*                                                                                          
+PHYS_POOLTABLE_SURFACE     
+PHYS_POOLTABLE_CUSHION     
+PHYS_POOLTABLE_BALL  
+
+### Natrual motion
+
+BUTTOCKS 
+THIGH_LEFT  
+SHIN_LEFT   
+FOOT_LEFT   
+THIGH_RIGHT 
+SHIN_RIGHT  
+FOOT_RIGHT  
+SPINE0   
+SPINE1   
+SPINE2   
+SPINE3   
+CLAVICLE_LEFT  
+UPPER_ARM_LEFT 
+LOWER_ARM_LEFT
+HAND_LEFT   
+CLAVICLE_RIGHT
+UPPER_ARM_RIGHT   
+LOWER_ARM_RIGHT   
+HAND_RIGHT
+NECK
+HEAD
+
+ANIMAL_DEFAULT
+
+### New materials
+
+CAR_ENGINE  
+PUDDLE   
+CONCRETE_PAVEMENT
+BRICK_PAVEMENT
+
+*SPECIAL MATERIAL USED TO IDENTIFY FRAG BOUNDS USED ONLY FOR COVER SHAPE TESTS AND DISABLED WHEN THE FRAG BREAKS*
+PHYS_DYNAMIC_COVER_BOUND
+
+VFX_WOOD_BEER_BARREL
+WOOD_HIGH_FRICTION
+
+*SPECIAL VERSIONS OF THESE MATERIAL THAT WONT HAVE PLANT INSTANCE PLACEMENT ON THEM - IDEALLY THESE NEED REPLACED WITH A MATERIAL FLAG GOING FORWARD*
+ROCK_NOINST 
+
+BUSHES_NOINST
+METAL_SOLID_ROAD_SURFACE
+
 # Shader
 
-**Parameter Description**
+## Parameter Description
 
 ***Diffuse Texture***
 .
 .
 .
 
-## Clouds
+## Parameter Sets
+
+### Clouds
 
 **clouds_altitude**
 
@@ -247,11 +548,11 @@ If a material should have a specific specialFX u have to use the names *material
 
 **clouds_soft**
 
-## Vehicle
+### Vehicle
     
 *Parameter set:*
    
-## Glass
+### Glass
  
 **glass**
 > Bump Texture
@@ -603,35 +904,35 @@ If a material should have a specific specialFX u have to use the names *material
 >
 > Use tessellation
    
-## Parallax
+### Parallax
  
 *Parameter set:*
    
-## Cloth
+### Cloth
  
 *Parameter set:*
    
-## Ped
+### Ped
  
 *Parameter set:*
    
-## Water
+### Water
  
 *Parameter set:*
    
-## Terrain
+### Terrain
  
 *Parameter set:*
    
-## Trees
+### Trees
  
 *Parameter set:*
    
-## Weapon
+### Weapon
  
 *Parameter set:*
    
-## Decal
+### Decal
  
 **decal**
 > Diffuse Texture
@@ -1154,7 +1455,7 @@ If a material should have a specific specialFX u have to use the names *material
 >
 > Use tessellation
    
-## Emissive
+### Emissive
 
 **emissive**
 > Diffuse Texture
@@ -1424,11 +1725,11 @@ If a material should have a specific specialFX u have to use the names *material
 >
 > Use tessellation
 
-## Mirror
+### Mirror
  
 *Parameter set:*
    
-## Cutout
+### Cutout
 
 **cutout**
 
@@ -1438,7 +1739,7 @@ If a material should have a specific specialFX u have to use the names *material
 
 **cutout_hard**
    
-## Normal Bump
+### Normal Bump
 
 **gta_normal**
 
@@ -1471,11 +1772,11 @@ If a material should have a specific specialFX u have to use the names *material
 
 **normal_alpha**
    
-## Reflect
+### Reflect
  
  *Parameter set:*
    
-## Specular
+### Specular
 
 **default_spec**
 
@@ -1493,7 +1794,7 @@ If a material should have a specific specialFX u have to use the names *material
 
 **spec_twiddle_tnt**
  
-## Default
+### Default
 
 **custom_default**
 
@@ -1537,7 +1838,7 @@ If a material should have a specific specialFX u have to use the names *material
 
 **gta_default**
    
-## Other
+### Other
  
 *Parameter set:*
 
