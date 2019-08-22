@@ -1,5 +1,64 @@
 # GTA5-Model-Documentation
 
+# Index
+[**Basics**](./Documentation.md#basics)
+- [Programs](./Documentation.md#programs)
+
+[**Data file types**](./Documentation.md#data-file-types)
+- [RPF](./Documentation.md#rpf) 
+- [Ytype](./Documentation.md#ytype)
+- [Ydr](./Documentation.md#ydr)
+- [Ybn](./Documentation.md#ybn)
+- [Ytd](./Documentation.md#ytd)
+- [Ymap](./Documentation.md#ymap)
+- [Xml](./Documentation.md#xml)
+
+[**Model**](./Documentation.md#model)
+- [Basics](./Documentation.md#basics-1)
+- [Create](./Documentation.md#create)
+- [Import](./Documentation.md#import)
+- [Export](./Documentation.md#export)
+
+[**Collision**](./Documentation.md#collision)
+- [Collision types](./Documentation.md#collision-types)
+- [Collision Flaggs](./Documentation.md#collision-falggs)
+
+[**Material**](./Documentation.md#material)
+- [Setup](./Documentation.md#setup)
+
+[**Shader**](./Documentation.md#shader)
+- [Clouds](./Documentation.md#clouds)
+- [Glass](./Documentation.md#glass)
+- [Parallax](./Documentation.md#parallax)
+- [Cloth](./Documentation.md#cloth)
+- [Ped](./Documentation.md#ped)
+- [Water](./Documentation.md#water)
+- [Terrain](./Documentation.md#terrain)
+- [Trees](./Documentation.md#trees)
+- [Weapon](./Documentation.md#weapon)
+- [Decal](./Documentation.md#decal)
+- [Mirror](./Documentation.md#mirror)
+- [Cutout](./Documentation.md#cutout)
+- [Normal Bump](./Documentation.md#normal-bump)
+- [Reflect](./Documentation.md#reflect)
+- [Specular](./Documentation.md#specular)
+- [Default](./Documentation.md#default)
+- [Other](./Documentation.md#other)
+
+[**Textures**](./Documentation.md#textures)
+ - [Basics](./Documentation.md#basics-2)
+ - [Embeded Textures](./Documentation.md#embeded-textures)
+ - [External Textures](./Documentation.md#external-textures)
+
+[**Minimap**](./Documentation.md#minimap)
+- [Export](./Documentation.md#export-1)
+- [Edit](./Documentation.md#edit)
+- [Import](./Documentation.md#import-1)
+
+[**Integration**](./Documentation.md#integration)
+- [Replacement](./Documentation.md#replacement)
+- [DLC](./Documentation.md#dlc)
+
 # Basics
 
 ## Programs
@@ -23,7 +82,7 @@ GTA 5
 
 [Blender](https://www.blender.org/)
 
-*Pythonscript*
+*Pythonscript* 
 [Openformat-to-obj](https://github.com/hedgehog90/openformat-to-obj/)
 
 **Textures:**
@@ -167,9 +226,9 @@ If a material should have a specific specialFX u have to use the names *material
  
 # Shader
 
-## Parameter Description
+**Parameter Description**
 
-**Diffuse Texture**
+***Diffuse Texture***
 .
 .
 .
@@ -1364,7 +1423,7 @@ If a material should have a specific specialFX u have to use the names *material
 > Specular intenstity
 >
 > Use tessellation
-   
+
 ## Mirror
  
 *Parameter set:*
