@@ -1,6 +1,6 @@
 # GTA5-Model-Documentation
 
-An in depth documentation about Modeling for GTA 5.
+Technical documentation about Modeling for GTA 5.
 
 Documentation contains all u never need to know about creating ur own objects for GTA 5.
 
