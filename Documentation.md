@@ -223,7 +223,7 @@ Defines group of collision | Defines group of collision to interact with
 Animal                     | Animal
 Animal Ragdoll             | Animal Ragdoll
 Explosion                  | Exlosion
-Foliage                    | Foiage
+Foliage                    | Foliage
 Forklift forks             | Forklift forks
 Glass                      | Glass
 Map animal                 | Map animal
