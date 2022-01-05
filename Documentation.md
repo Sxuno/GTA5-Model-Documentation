@@ -222,7 +222,7 @@ Flags 1                    | Flags 2
 Defines group of collision | Defines group of collision to interact with
 Animal                     | Animal
 Animal Ragdoll             | Animal Ragdoll
-Explosion                  | Exlosion
+Explosion                  | Explosion
 Foliage                    | Foliage
 Forklift forks             | Forklift forks
 Glass                      | Glass
